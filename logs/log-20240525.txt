@@ -1,0 +1,3 @@
+2024-05-25 20:10:28.380 +02:00 [WRN] The WebRootPath was not found: C:\Users\twizo\Documents\reactn_todo_app3\taskmanagment.server\wwwroot. Static files may be unavailable.
+2024-05-25 20:10:28.619 +02:00 [INF] Starting up the application
+2024-05-25 20:10:29.304 +02:00 [WRN] The WebRootPath was not found: C:\Users\twizo\Documents\reactn_todo_app3\taskmanagment.server\wwwroot. Static files may be unavailable.

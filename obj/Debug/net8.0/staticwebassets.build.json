@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "epfz1cXV3u/jsOc3KYAESREHdS/i2L+TzG+p5HwXzl0=",
+  "Source": "taskmanagment.server",
+  "BasePath": "_content/taskmanagment.server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "4lspe2MCUenRmYmR/8mCVzvqsAAvdUuGSv7nJ9842YY=",
+  "Source": "taskmanagment.server",
+  "BasePath": "_content/taskmanagment.server",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
