@@ -38,7 +38,7 @@ namespace TaskManagment.Server.Controllers
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Failed to retrieve all tasks.");
-                return StatusCode(500, "An error occurred while retrieving all tasks.");
+                return StatusCode(500, $"An error occurred while retrieving all tasks.{ex.Message}");
             }
         }
 
@@ -63,7 +63,7 @@ namespace TaskManagment.Server.Controllers
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Failed to retrieve task with ID {TaskId}.", id);
-                return StatusCode(500, "An error occurred while retrieving task.");
+                return StatusCode(500, $"An error occurred while retrieving task.{ex.Message}");
             }
         }
 
@@ -103,7 +103,7 @@ namespace TaskManagment.Server.Controllers
             catch (Exception ex)
             {
                 _logger.LogError(ex, "An error occurred while updating task with ID {TaskId}.", id);
-                return StatusCode(500, "An error occurred while updating task.");
+                return StatusCode(500, $"An error occurred while updating task.{ex.Message}");
             }
         }
 
@@ -136,7 +136,7 @@ namespace TaskManagment.Server.Controllers
             catch (Exception ex)
             {
                 _logger.LogError(ex, "An error occurred while creating the task.");
-                return StatusCode(500, "An error occurred while creating task.");
+                return StatusCode(500, $"An error occurred while creating task.{ex.Message}");
             }
         }
 
@@ -164,7 +164,7 @@ namespace TaskManagment.Server.Controllers
             catch (Exception ex)
             {
                 _logger.LogError(ex, "An error occurred while deleting task with ID {TaskId}.", id);
-                return StatusCode(500, "An error occurred while deleting task.");
+                return StatusCode(500, $"An error occurred while deleting task.{ex.Message}");
             }
         }
 

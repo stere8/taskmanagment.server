@@ -50,7 +50,7 @@ namespace TaskManagment.Server.Controllers
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Failed to retrieve all users.");
-                return StatusCode(500, "An error occurred while retrieving all users.");
+                return StatusCode(500, $"An error occurred while retrieving all users.{ex.Message}");
             }
         }
 
@@ -75,7 +75,7 @@ namespace TaskManagment.Server.Controllers
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Failed to retrieve user with ID {UserId}.", id);
-                return StatusCode(500, "An error occurred while retrieving user.");
+                return StatusCode(500, $"An error occurred while retrieving user.{ex.Message}");
             }
         }
 
@@ -124,7 +124,7 @@ namespace TaskManagment.Server.Controllers
             catch (Exception ex)
             {
                 _logger.LogError(ex, "An error occurred while updating user with ID {UserId}.", id);
-                return StatusCode(500, "An error occurred while updating user.");
+                return StatusCode(500, $"An error occurred while updating user.{ex.Message}");
             }
         }
 
@@ -153,7 +153,7 @@ namespace TaskManagment.Server.Controllers
             catch (Exception ex)
             {
                 _logger.LogError(ex, "An error occurred while deleting user with ID {UserId}.", id);
-                return StatusCode(500, "An error occurred while deleting user.");
+                return StatusCode(500, $"An error occurred while deleting user.{ex.Message}");
             }
         }
 
@@ -179,7 +179,7 @@ namespace TaskManagment.Server.Controllers
             catch (Exception ex)
             {
                 _logger.LogError(ex, "An error occurred while registering the user.");
-                return StatusCode(500, $"An error occurred while registering user.");
+                return StatusCode(500, $"An error occurred while registering user.{ex.Message}");
             }
         }
 
@@ -205,7 +205,7 @@ namespace TaskManagment.Server.Controllers
             catch (Exception ex)
             {
                 _logger.LogError(ex, "An error occurred while logging in user {Username}.", loginUserDto.Username);
-                return StatusCode(500, "An error occurred while logging in.");
+                return StatusCode(500, $"An error occurred while logging in.{ex.Message}");
             }
         }
 
