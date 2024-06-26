@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\oracle.admin\\RiderProjects\\reactn_todo_app\\TaskManagment.Server\\taskmanagment.server.csproj": {}
+    "C:\\Users\\oracle.admin\\RiderProjects\\managment.sever\\taskmanagment.server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\oracle.admin\\RiderProjects\\reactn_todo_app\\TaskManagment.Server\\taskmanagment.server.csproj": {
+    "C:\\Users\\oracle.admin\\RiderProjects\\managment.sever\\taskmanagment.server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oracle.admin\\RiderProjects\\reactn_todo_app\\TaskManagment.Server\\taskmanagment.server.csproj",
+        "projectUniqueName": "C:\\Users\\oracle.admin\\RiderProjects\\managment.sever\\taskmanagment.server.csproj",
         "projectName": "taskmanagment.server",
-        "projectPath": "C:\\Users\\oracle.admin\\RiderProjects\\reactn_todo_app\\TaskManagment.Server\\taskmanagment.server.csproj",
+        "projectPath": "C:\\Users\\oracle.admin\\RiderProjects\\managment.sever\\taskmanagment.server.csproj",
         "packagesPath": "C:\\Users\\oracle.admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oracle.admin\\RiderProjects\\reactn_todo_app\\TaskManagment.Server\\obj\\",
+        "outputPath": "C:\\Users\\oracle.admin\\RiderProjects\\managment.sever\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\oracle.admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
